@@ -43,7 +43,7 @@ public class GenerarNumero extends JFrame {
         setVisible(true);
     }
 
-    //Funcion que permite llevar un conteo de que no se generen mas de los numeros que estan estipulados
+    //Funcion que se asegura de que siempre se genere un numero nuevo
     private void drawNumber() {
         if (currentIndex < numbers.size()) {
             int number = numbers.get(currentIndex);
